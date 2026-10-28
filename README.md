@@ -17,10 +17,6 @@ A responsive weather app built with plain HTML, CSS, and JavaScript. It uses [Op
 
 Open `index.html` in a browser. No setup needed. (The location button works best when the page is served over `http://localhost`, e.g. `python -m http.server`, since some browsers block location on `file://` pages.)
 
-## Screenshots
-
-> Add screenshots to a `screenshots/` folder and link them here.
-
 ## Technologies Used
 
 HTML5 (semantic markup, ARIA), CSS3 (Flexbox, variables, transitions), vanilla JavaScript (fetch, async/await, Geolocation API, localStorage)
