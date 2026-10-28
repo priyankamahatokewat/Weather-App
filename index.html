@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <header class="top">
+      <h1>Weather</h1>
+      <div class="top-actions">
+        <button id="unit-toggle" class="pill" type="button" aria-label="Switch to Fahrenheit">°C</button>
+        <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch to dark mode">🌙</button>
+      </div>
+    </header>
+
+    <form id="search-form" class="search-form" role="search">
+      <label for="city" class="sr-only">City name</label>
+      <input id="city" type="search" placeholder="Search for a city" autocomplete="off">
+      <button type="submit" class="btn-primary">Search</button>
+      <button id="locate" type="button" class="icon-btn" aria-label="Use my current location" title="Use my location">📍</button>
+    </form>
+
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+
+    <!-- Filled in by script.js -->
+    <section id="current" class="current" hidden></section>
+    <section id="forecast" class="forecast" aria-label="5-day forecast" hidden></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

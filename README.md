@@ -1,4 +1,3 @@
-# Weather-App
 # Weather App
 
 A responsive weather app built with plain HTML, CSS, and JavaScript. It uses [Open-Meteo](https://open-meteo.com/), which is free and **needs no API key**. No frameworks, no libraries, no build step.
